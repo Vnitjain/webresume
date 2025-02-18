@@ -135,8 +135,8 @@ a:hover {
 }
 
 .section-padding {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 b,
@@ -679,6 +679,11 @@ strong {
   bottom: 15px;
 }
 
+.services-icon-wrap {
+  width: 45%;
+  height: 60%;
+}
+
 .services-thumb:hover .services-price-wrap {
   background: var(--secondary-color);
 }
@@ -1030,8 +1035,8 @@ strong {
   }
 
   .section-padding {
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
 
   .custom-btn,
@@ -1107,10 +1112,7 @@ strong {
     padding-bottom: 270px;
   }
 
-  .services-icon-wrap {
-    width: 45%;
-    height: 60%;
-  }
+ 
 
   .services .col-lg-10 .row .col-lg-6:last-child,
   .projects .col-lg-4:last-child {
