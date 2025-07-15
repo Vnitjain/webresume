@@ -106,7 +106,9 @@
                     </div>
 
                     <div class="col-lg-5 col-12 position-relative">
-                        <div class="hero-image-wrap"></div>
+                        <div class="hero-image-wrap">
+                            <canvas id="three-canvas"></canvas>
+                        </div>
                         <!-- <img src="images/portrait-happy-excited-man-holding-laptop-computer.png"
                             class="hero-image img-fluid" alt=""> -->
                     </div>
@@ -681,6 +683,15 @@
     <script src="js/jquery.magnific-popup.min.js"></script>
     <script src="js/magnific-popup-options.js"></script>
     <script src="js/custom.js"></script>
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "https://unpkg.com/three@0.138.0/build/three.module.js",
+                "three/examples/jsm/loaders/GLTFLoader.js": "https://unpkg.com/three@0.138.0/examples/jsm/loaders/GLTFLoader.js"
+            }
+        }
+    </script>
+    <script type="module" src="js/3d-object.js"></script>
 
 </body>
 
