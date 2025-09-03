@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Wave Geometry and Shader Material
     const waveWidth = containerWidth * 2; // Make it wider than the screen to animate across
-    const waveHeight = 350; // The amplitude of the wave
+    const waveHeight = 400; // The amplitude of the wave
     const segments = 400;
     const geometry = new THREE.PlaneGeometry(waveWidth, waveHeight, segments, 1);
 
