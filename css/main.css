@@ -654,6 +654,7 @@ strong {
   background: var(--secondary-color);
   border-color: var(--secondary-color);
   color: var(--white-color);
+  transform: scale(1.1) rotate(-35deg) translateY(30px);
 }
 
 .services-icon-wrap {
@@ -1135,6 +1136,15 @@ strong {
   .navbar .container {
     margin-right: 12px;
     margin-left: 12px;
+  }
+
+  .hero-title {
+    font-size: 32px;
+  }
+
+  .hero {
+    padding-top: 300px;
+    padding-bottom: 250px;
   }
 }
 
