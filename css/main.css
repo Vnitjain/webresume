@@ -501,6 +501,47 @@ strong {
   top: 70px;
 }
 
+.waving-hand {
+  animation: wave-animation 2.5s infinite;
+  transform-origin: 70% 70%;
+  display: inline-block;
+  font-size: 1.2em;
+}
+
+@keyframes wave-animation {
+  0% {
+    transform: rotate(0.0deg) scale(1.1)
+  }
+
+  10% {
+    transform: rotate(14.0deg) scale(1.1)
+  }
+
+  20% {
+    transform: rotate(-8.0deg) scale(1.1)
+  }
+
+  30% {
+    transform: rotate(14.0deg) scale(1.1)
+  }
+
+  40% {
+    transform: rotate(-4.0deg) scale(1.1)
+  }
+
+  50% {
+    transform: rotate(10.0deg) scale(1.1)
+  }
+
+  60% {
+    transform: rotate(0.0deg) scale(1.1)
+  }
+
+  100% {
+    transform: rotate(0.0deg) scale(1.1)
+  }
+}
+
 .hero-image-wrap {
   background: var(--white-color);
   border-radius: 100%;
