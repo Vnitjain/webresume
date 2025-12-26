@@ -935,6 +935,17 @@ strong {
   text-align: center;
 }
 
+.reveal {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: all 1s ease-out;
+}
+
+.reveal.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 .site-footer-title {
   font-size: var(--menu-font-size);
   color: var(--dark-color);
